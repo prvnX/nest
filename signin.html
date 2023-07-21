@@ -1,0 +1,36 @@
+<!DOCTYPE html><head><title>Sign in Page</title></head>
+<body>
+<form action="signin.php" method="POST">
+    <fieldset>
+        <legend>Signin Page</legend><table><tr>
+        <td><label for="fname">Firstname  </label></td>
+        <td><input type="text" id="fname" name="fname"></td></tr>
+        <tr><td><label for="lname">LastName  </label></td>
+        <td><input type="text" id="lname" name="lname"></td></tr>
+        <tr><td><label for="bday">Date Of Birth</label></td>
+        <td><input type="date" id="dob" name="dob"></td></tr>
+        <tr><td><label for="email">Email  </label></td>
+        <td><input type="email" name="email" id="email"></td></tr>
+        <tr><td><label for="pword">Password  </label></td>
+        <td><input type="password" id="pword" name="pword"></td></tr>
+        <tr><td><label for="bio">Bio</label></td>
+        <td><textarea cols="20" rows="5">enter your Bio</textarea><br></td></tr>
+        <tr><td>Gender </td>
+        <td><label for="male">Male</label>
+        
+        <input type="radio" name="gen" id="male">&nbsp;&nbsp;
+        <label for="female">Female</label>
+        <input type="radio" name="gen" id="female"><br></td></tr>
+        <tr><td><label for="smd">Save my details  </label></td>
+        <td><input type="checkbox" name="smd" id="smd"></td></tr>
+        <tr><td>
+        <label for="img">Image </label></td>
+       <td><input type="file" id="img" name="image" accept="image/*">
+        </td></tr>
+        <tr><td><input type="submit" name="save" value="Create my account"></td></tr>
+    </table>
+    </fieldset>
+</form>
+
+
+</body>
